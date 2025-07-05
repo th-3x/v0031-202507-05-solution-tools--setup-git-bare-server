@@ -12,7 +12,7 @@ echo "Home: $HOME"
 echo ""
 
 # Configuration
-GIT_SERVER_BASE="/home/ln5/dev--path/v01--git-server"
+GIT_SERVER_BASE="$HOME/dev--path/v01--git-server"
 GIT_BARE_DIR="$GIT_SERVER_BASE/git-bare"
 BACKUP_DIR="$GIT_SERVER_BASE/backups"
 TOOLS_DIR="$GIT_SERVER_BASE/tools-setup-local-git-bare"
