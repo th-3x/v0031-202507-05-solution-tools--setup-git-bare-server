@@ -13,7 +13,7 @@ if [ $# -eq 0 ]; then
 fi
 
 REPO_NAME="$1"
-GIT_BARE_DIR="/home/ln5/dev--path/v01--git-server/git-bare"
+GIT_BARE_DIR="$HOME/dev--path/v01--git-server/git-bare"
 REPO_PATH="$GIT_BARE_DIR/${REPO_NAME}.git"
 
 echo "📦 Creating New Git Repository"
